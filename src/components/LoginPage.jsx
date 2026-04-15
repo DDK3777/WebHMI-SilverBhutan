@@ -71,7 +71,7 @@ export default function LoginPage({ onDemoAccess }) {
           </div>
         ) : (
           <div className="auth-help">
-            Create the first user from Supabase Authentication, then open Users and click Add user.
+          
           </div>
         )}
       </div>
