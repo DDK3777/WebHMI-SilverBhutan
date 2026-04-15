@@ -1,3 +1,4 @@
+
 # Solar Pump Web HMI
 
 This project is a beginner-friendly React web HMI inspired by your attached panel screen. It supports:
