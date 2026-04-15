@@ -4,7 +4,7 @@ import { signInWithPassword, supabase } from '../lib/supabaseClient';
 export default function LoginPage({ onDemoAccess }) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [message, setMessage] = useState('Login with your Supabase user account.');
+  const [message, setMessage] = useState('Login with your user account.');
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (event) => {
